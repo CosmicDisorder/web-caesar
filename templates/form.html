@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        form {
+            background-color: #eee;
+            padding: 1.25em;
+            margin: 0 auto;
+            width: 33.75em;
+            font: 1em sans-serif;
+        }
+        input {
+            width: 3.75em;
+            height: 1.25em;
+        }
+        input.button {
+            float: right;
+            width: 10.75em;
+            height: 2.25em;
+        }
+        textarea {
+            margin: .625em;
+            width: 33.75em;
+            height: 7.5em;
+        }
+        br { margin-bottom: 1.25em}
+
+    </style>
+</head>
+<body>
+    <h1>I can has form</h1>
+    <br> 
+    <form method="POST">
+    <label> Rotate by: 
+        <input name="rot" type="text" />
+    </label>
+    
+    <br>
+
+    <label>
+        <textarea name="text" type="text"></textarea>
+        <br>
+        <input class="button" type="submit">
+    </label>
+
+</body>
+<html>
